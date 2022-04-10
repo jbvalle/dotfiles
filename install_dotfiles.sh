@@ -2,6 +2,7 @@
 
 #Install essential dev programs
 sudo apt-get install build-essential cmake libpthread-stubs0-dev libgtk-3-dev -y
+sudp apt install avrdude avr-libc gcc-avr -y 
 
 #link dotfiles to home
 ln -sf ~/dotfile/.bashrc ~/.bashrc
